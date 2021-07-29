@@ -5,7 +5,9 @@ ReactiveIDE Community Theme is a theme for [Discourse](https://discourse.org), i
 This theme is baked from [Kodular Material 2 - Light](https://github.com/kodular-community/discourse-theme)
 
 ---
+
 More info at: https://meta.discourse.org/t/kodular-community-theme/162724?u=Alexander
+
 ---
 
 <br>
