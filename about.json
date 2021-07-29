@@ -1,6 +1,6 @@
 {
-  "name": "Kodular Material Light",
-  "component": false,
+  "name": "Reactive",
+  "component": true,
   "license_url": null,
   "about_url": null,
   "authors": null,
@@ -14,8 +14,8 @@
     "Material Light": {
       "primary": "000000",
       "secondary": "ffffff",
-      "tertiary": "4527a0",
-      "quaternary": "4527a0",
+      "tertiary": "f44336",
+      "quaternary": "f44336",
       "header_background": "ffffff",
       "header_primary": "333333",
       "highlight": "a18ddf",
