@@ -1,17 +1,14 @@
 {
   "name": "Reactive",
-  "component": false,
+  "components": ["https://github.com/jordanvidrine/discourse-category-group-boxes.git","https://github.com/discourse/discourse-color-scheme-toggle.git","https://github.com/discourse/discourse-loading-slider.git","https://github.com/discourse/discourse-clickable-topic.git","https://github.com/discourse/discourse-search-banner.git"],
   "license_url": null,
   "about_url": null,
   "authors": null,
   "theme_version": "1",
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-    "CascadiaCode": "assets/CascadiaCode.woff2"
-  },
   "color_schemes": {
-    "Material Light": {
+    "ReactiveIDE Light": {
       "primary": "000000",
       "secondary": "ffffff",
       "tertiary": "f44336",
@@ -22,9 +19,22 @@
       "danger": "e43535",
       "success": "1ca551",
       "love": "4527a0"
+    },
+    "ReactiveIDE Dark": {
+      "primary": "e0e0e0",
+      "secondary": "282828",
+      "tertiary": "f44336",
+      "quaternary": "f44336",
+      "header_background": "282828",
+      "header_primary": "e0e0e0",
+      "highlight": "a18ddf",
+      "danger": "e43535",
+      "success": "1ca551",
+      "love": "4527a0"
     }
   },
   "modifiers": {
+    "serialize_topic_excerpts": true
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

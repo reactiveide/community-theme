@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+    font-family: 'Josefin Sans';
+}
 
 h1 {
     font-family: 'Josefin Sans';
@@ -56,7 +58,7 @@ h6 {
 #toggle-hamburger-menu i::before,
 #toggle-messages-menu i::before {
     font-size: 24px;
-    color: #4527a0;
+    color: #f44336;
 }
 
 #discord-button,
@@ -109,7 +111,7 @@ h6 {
 }
 
 .badge-notification.new-topic {
-    color: #4527a0;
+    color: #f44336;
 }
 
 .badge-wrapper.bullet {
@@ -123,13 +125,13 @@ h6 {
 
 .topic-list .badge-notification {
     margin: 0;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     top: 0;
 }
 
 .num.views {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -141,7 +143,7 @@ h6 {
 .post-info.edits,
 .post-date,
 #create-topic {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -155,7 +157,7 @@ h6 {
 
 #create-topic {
     border-radius: 5px;
-    background-color: #4527a0 !important;
+    background-color: #f44336 !important;
     color: #fff;
     display: block;
 }
@@ -179,13 +181,13 @@ h6 {
 
 #navigation-bar .ember-view a {
     border-radius: 5px;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     color: #444 !important;
 }
 
 #navigation-bar .ember-view a.active {
-    background-color: #4527a0 !important;
+    background-color: #f44336 !important;
     color: #fff !important;
 }
 
@@ -198,7 +200,7 @@ h6 {
 .topic-list.ember-view > thead > tr > th,
 .category-list .category,
 .category-list .topics {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 16px;
     color: #444;
@@ -210,12 +212,12 @@ h6 {
 
 #navigation-bar .ember-view a:not(.active):hover {
     background-color: #c7bee3 !important;
-    color: #4527a0 !important;
+    color: #f44336 !important;
 }
 
 .mdl-button--icon i {
     line-height: 32px;
-    color: #4527a0;
+    color: #f44336;
 }
 
 #topic-title .title-wrapper {
@@ -251,7 +253,7 @@ h6 {
 }
 
 .small-action .small-action-desc.timegap {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -274,7 +276,7 @@ h6 {
     border: 1px solid #ddd;
     background: transparent;
     border-radius: 5px;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     color: #666;
 }
@@ -301,9 +303,9 @@ h6 {
 #topic-footer-buttons .create.btn {
     float: right;
     border-radius: 5px;
-    background-color: #4527a0 !important;
+    background-color: #f44336 !important;
     margin-right: 0;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     cursor: pointer;
 }
@@ -324,8 +326,8 @@ h6 {
 }
 
 .alert.alert-info.clickable a {
-    color: #4527a0;
-    font-family: 'Jost';
+    color: #f44336;
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -360,7 +362,7 @@ h6 {
 
 .suggested-topics-title {
     font-size: 18px;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     margin: 0;
     padding: 5px 10px;
@@ -377,7 +379,7 @@ h6 {
     font-size: 16px;
     padding: 5px 10px;
     margin: 0;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     color: #666;
 }
@@ -434,7 +436,7 @@ h6 {
 }
 
 .actions > .double-button > .like-count {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     margin-right: 5px;
 }
@@ -455,7 +457,7 @@ h6 {
     height: 30px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     padding: 0 7px;
     color: #444 !important;
@@ -493,7 +495,7 @@ nav.post-controls button:not(.reply) i::before {
 }
 
 nav.post-controls .double-button button.has-like .d-icon {
-    color: #4527a0;
+    color: #f44336;
 }
 
 // nav.post-controls .double-button button.has-like {}
@@ -539,7 +541,7 @@ aside .title {
     border: 1px solid #ddd;
     border-bottom: 0;
     border-left: 5px solid #ddd !important;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -568,7 +570,7 @@ aside blockquote {
 }
 
 #topic-progress .nums {
-    color: #4527a0;
+    color: #f44336;
 }
 
 #topic-progress .bg {
@@ -580,7 +582,7 @@ aside blockquote {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
     color: #666;
     outline: none;
@@ -614,7 +616,7 @@ aside blockquote {
 }
 
 .category-list div.category-description {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-size: 14px;
 }
 
@@ -694,7 +696,7 @@ a {
 
 .nav-pills > li a.active {
     color: #fff;
-    background-color: #4527a0;
+    background-color: #f44336;
     border-radius: 5px;
 }
 
@@ -734,8 +736,8 @@ a {
 }
 
 .select-kit.combo-box .select-kit-header.is-focused {
-    border: 1px solid #4527a0;
-    box-shadow: 0 0 0px 0 #4527a0;
+    border: 1px solid #f44336;
+    box-shadow: 0 0 0px 0 #f44336;
     border-radius: 5px;
 }
 
@@ -764,7 +766,7 @@ input[type='url']:focus,
 input[type='search']:focus,
 input[type='tel']:focus,
 input[type='color']:focus {
-    border: 1px solid #4527a0;
+    border: 1px solid #f44336;
     outline: 0;
 }
 
@@ -813,7 +815,7 @@ textarea {
 }
 
 .badge-card .badge-contents .badge-info {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     font-weight: 400;
 }
 
@@ -828,7 +830,7 @@ textarea {
     animation: rotate-forever 0.8s infinite linear;
     height: 30px;
     width: 30px;
-    border: 4px solid #4527a0;
+    border: 4px solid #f44336;
     border-right-color: transparent;
     border-radius: 50%;
 }
@@ -860,13 +862,13 @@ div.menu-links-header .menu-links-row li a.active {
 }
 
 .search-menu input[type='text'] {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
     border-radius: 5px;
     border: 1px #ddd solid;
 }
 
 .panel-body-contents .search-context label {
-    font-family: 'Jost';
+    font-family: 'Josefin Sans';
 }
 
 .user-menu .quick-access-panel li:hover,
