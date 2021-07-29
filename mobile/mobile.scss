@@ -77,6 +77,8 @@
     font-weight: bold;
 }
 
+// air
+
 .custom-search-banner-wrap {
     h1 {
       font-size: 2.5em !important;
@@ -85,14 +87,6 @@
       font-weight: normal;
       font-size: $font-up-1;
     }
-  }
-  
-  html body:not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page) #main-outlet,
-   {
-    width: calc(100% - 1em);
-    padding: 0em 0.5em 1em 0.5em;
-    box-shadow: none;
-    background-color: transparent;
   }
   
   html body.static-faq #main-outlet
@@ -210,3 +204,4 @@
   .groups-boxes {
     grid-template-columns: 1fr !important;
   }
+  
