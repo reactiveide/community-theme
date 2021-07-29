@@ -89,6 +89,13 @@
     }
   }
   
+  html body:not(.static-faq):not(.badges-page):not(.tags-page):not(.archetype-regular):not(.archetype-private_message):not(.admin-interface):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(.user-invites-page):not(.user-preferences-page) #main-outlet{
+    width: calc(100% - 1em);
+    padding: 0em 0.5em 1em 0.5em;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  
   html body.static-faq #main-outlet
   html body.tags-page #main-outlet,
   html body.badges-page #main-outlet,
@@ -170,38 +177,5 @@
     margin-left: -0.5em;
     padding: 0 0.5em;
   }
-  
-  // category boxes mobile
-  
-  .custom-category-boxes {
-    grid-gap: 1em !important;
-  }
-  
-  .custom-category-boxes .category-box .category-box-inner {
-    column-gap: 1em !important;
-  }
-  
-  .custom-category-boxes .category-box .category-box-inner .category-logo.no-logo-present {
-    height: 100% !important;
-  }
-  
-  .custom-category-boxes .description {
-    max-height: unset !important;
-  }
-  
-  .custom-category-boxes .category-box .category-box-inner .category-details {
-    padding: 1em;
-  }
-  
-  .groups-header {
-    margin: 1em 0 0 0;
-  }
-  
-  .groups-header-filters-name {
-    display: none !important;
-  }
-  
-  .groups-boxes {
-    grid-template-columns: 1fr !important;
-  }
+
   
