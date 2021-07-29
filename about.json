@@ -15,10 +15,10 @@
       "quaternary": "f44336",
       "header_background": "ffffff",
       "header_primary": "333333",
-      "highlight": "a18ddf",
+      "highlight": "f8bbd0",
       "danger": "e43535",
       "success": "1ca551",
-      "love": "4527a0"
+      "love": "f44336"
     },
     "ReactiveIDE Dark": {
       "primary": "e0e0e0",
@@ -27,10 +27,10 @@
       "quaternary": "f44336",
       "header_background": "282828",
       "header_primary": "e0e0e0",
-      "highlight": "a18ddf",
+      "highlight": "f8bbd0",
       "danger": "e43535",
       "success": "1ca551",
-      "love": "4527a0"
+      "love": "f44336"
     }
   },
   "modifiers": {
